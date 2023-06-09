@@ -1,0 +1,5 @@
+<article>
+    <h3>{{ page.term }} {% if page.abbr %}({{ page.abbr }}){% endif %}</h3>
+    {% if page.context %}{{ page.context }}{% endif %}
+    {{ content }
+</article>
