@@ -11,7 +11,7 @@ defaults:
     - scope:
         path: ""
         type: "glossary"
-    values:
+      values:
         layout: "glossary-entry"
         
 permalinks: pretty
