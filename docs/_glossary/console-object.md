@@ -1,4 +1,4 @@
-term: `console` object
+term: "`console` object"
 context: JS
 ---
 * An object that is provided by a web browser as a way for a web page to communicate with a browser's built-in console.
