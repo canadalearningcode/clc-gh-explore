@@ -1,5 +1,17 @@
----
-theme: minima
+name: Canada Learning Code Content Repository
 title: Canada Learning Code Content Repository
 author: jernwerber
----
+description: "A test setup for a GitHub-based content respository for CLC."
+
+collections:
+    glossary:
+        output: true
+        
+defaults:
+    - scope:
+        path: ""
+        type: "glossary"
+    values:
+        layout: "glossary-entry"
+        
+permalinks: pretty
